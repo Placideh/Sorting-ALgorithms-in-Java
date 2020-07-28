@@ -20,6 +20,14 @@ public class BubbleSort{
 	public static void main(String[] args) {
 		int [] names={3,7,20,5,-2};
 		System.out.println(Arrays.toString(myarr(names)));
+		/*This ways works like the above line the things is that we don't need to use Array Class
+		but as a programmer we have to use less code so I prefer the above mthod
+		myarr(names);
+		for (int i :names ) {
+			System.out.print(i+" ");
+			
+		}
+		*/
 
 		
 	}
