@@ -10,7 +10,7 @@ public class SelectionSort{
 		int j=0;
 		int zeroIndex=i-1;
 		for (j=zeroIndex+j;j<arr.length ;j++ ) {
-				zeroIndex=j+1;
+				zeroIndex=j;
 			if (arr[zeroIndex]>arr[j]) {
 				int temp=arr[zeroIndex];
 				arr[zeroIndex]=arr[j];
